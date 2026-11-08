@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>حضانة مس مامي | روضة أطفال </title>
+<meta name="description" content="حضانة مس مامي — أقسام للرضع والحولي والتمهيدي والـ KG، معلمات مؤهلات، متابعة يومية للأهل، وأنشطة تعليمية في بيئة آمنة. احجز زيارة الآن.">
+<meta name="theme-color" content="#2f6bd8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="حضانة مس مامي | Kindergarten to teach children">
+<meta property="og:description" content="حضانة وروضة أطفال بتعلّم باللعب في بيئة آمنة، مع متابعة يومية للأهل.">
+<meta property="og:locale" content="ar_EG">
+<link rel="icon" href="logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+<script>
+  // يمنع الرفرفة: يطبّق الثيم المحفوظ قبل ما الصفحة ترسم
+  try { var t = localStorage.getItem('mm-theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+</script>
+<script src="./main.js" defer></script>
+</head>
+
+<body>
+<!-- زرار قائمة الموبايل: شغال بـ CSS، والـ JS بيزيّنه (يقفل لما تدوسي على لينك أو ضغطة Esc) -->
+<input type="checkbox" id="nav-toggle" class="nav-check">
+
+<a class="skip-link" href="#main">تخطَّ إلى المحتوى</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="حضانة مس مامي — الصفحة الرئيسية">
+      <img class="brand-logo" src="logo.png" alt="لوجو حضانة مس مامي" width="135" height="97">
+    </a>
+
+    <nav class="site-nav" aria-label="القائمة الرئيسية">
+      <a href="#about">الحضانة</a>
+      <a href="#classes">الأقسام</a>
+      <a href="#routine">يومنا</a>
+      <a href="#activities">الأنشطة</a>
+      <a href="#fees">المصروفات</a>
+      <a href="#faq">الأسئلة</a>
+      <a class="nav-cta" href="#visit">احجز زيارة</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-btn" type="button" id="theme-toggle" aria-pressed="false" title="تبديل الوضع الفاتح والغامق">
+        <span class="theme-ico" aria-hidden="true">🌙</span><span class="visually-hidden">تغيير مظهر الصفحة</span>
+      </button>
+      <label class="nav-btn" for="nav-toggle">
+        <span class="visually-hidden">فتح أو غلق القائمة</span>
+      </label>
+    </div>
+    <label class="nav-backdrop" for="nav-toggle" aria-hidden="true"></label>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="hero-bg" aria-hidden="true">
+      <span class="blob blob-a"></span><span class="blob blob-b"></span><span class="blob blob-c"></span>
+    </div>
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span> التسجيل مفتوح للفصل الجديد</p>
+        <h1 id="hero-title">حضانة <em>مس مامي</em><br>أولادنا بيتعلّموا <span class="hl">باللعب والحب</span></h1>
+        <p class="lead">
+         من عمر سنه لحد ٦ سنين — أقسام صغيرة، معلّمات مؤهلات، ومتابعة يومية توصلك على موبايلك
+          ، اتعلم إيه النهارده.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-lg" href="#visit">احجز زيارة للحضانة</a>
+          <a class="btn btn-ghost btn-lg" href="https://wa.me/201288400560" target="_blank" rel="noopener">اتكلّم على واتساب</a>
+        </div>
+
+        <ul class="hero-perks">
+          <li><b>مجموعات صغيرة</b> لكل قاعة</li>
+          <li><b>تعليم باعلي جوده</b> تعليم بجوده عاليه للطفل</li>
+          <li><b>انشطه ترفيهيه</b> تحسن نفسيه الطفل </li>
+        </ul>
+      </div>
+
+      <!-- دي معاينة شكل المتابعة اليومية — لو عندك صورة حقيقية للحضانة حطها بدل البلوك ده -->
+      <div class="hero-visual" aria-hidden="true">
+        <div class="day-card">
+          <p class="day-card-head">يوم <strong>سلمى · قاعة الفراشة</strong></p>
+          <ul class="feed">
+            <li class="feed-item feed-blue"><span class="feed-ico">🚪</span><div><b>وصلت الحضانة</b><small>٨:٣٥ صباحًا · استلمتها أ. منة</small></div></li>
+            <li class="feed-item feed-green"><span class="feed-ico">🍎</span><div><b>خلصت الغدا</b><small>١٢:٣٠ مساءً · أرز ببطاطس</small></div></li>
+            <li class="feed-item feed-rose"><span class="feed-ico">📷</span><div><b>صورة جديدة</b><small>من نشاط الرسم · دلوقتي</small></div></li>
+            <li class="feed-item feed-violet"><span class="feed-ico">🎨</span><div><b>تعلمت حرف</b><small>حرف الميم مع القصة</small></div></li>
+          </ul>
+          <p class="day-card-foot">الأهل بيشوفوا كل ده أول بأول 🧡</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="container">
+      <header class="section-head">
+        <p class="kicker">عن الحضانة</p>
+        <h2 id="about-title">ليه أمهات كتير بتختار <strong>مس مامي</strong></h2>
+        <p class="section-sub">لأن الأمان والاهتمام مش رفاهية — دول أساس الشغل هنا.</p>
+      </header>
+
+      <div class="grid grid-4">
+        <article class="card">
+          <span class="card-ico ico-blue" aria-hidden="true">🛡️</span>
+          <h3>أمان أولًا</h3>
+          <p>باب بتسليم موثّق، كاميرات متابعة، وتعقيم يومي للألعاب والقاعات.</p>
+        </article>
+        <article class="card">
+          <span class="card-ico ico-green" aria-hidden="true">🎓</span>
+          <h3>معلّمات مؤهلات</h3>
+          <p>خريجات تربية طفولة مبكرة، مع تدريب مستمر على التعامل مع الأطفال.</p>
+        </article>
+        <article class="card">
+          <span class="card-ico ico-rose" aria-hidden="true">📱</span>
+          <h3>متابعة يومية</h3>
+          <p>تقرير بالأكل والنوم والمذاكرة، وصور الأنشطة بتوصلك أول بأول.</p>
+        </article>
+        <article class="card">
+          <span class="card-ico ico-amber" aria-hidden="true">🚍</span>
+          <h3>خدمة توصيل</h3>
+          <p>للأطفال اللي بيتهم بعيد عن الحضانة، فيه باص ذهاب ورجوع بمشرف.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CLASSES ================= -->
+  <section class="section section-alt" id="classes" aria-labelledby="classes-title">
+    <div class="container">
+      <header class="section-head">
+        <p class="kicker">الأقسام</p>
+        <h2 id="classes-title">قسم على مقاس سنّك</h2>
+        <p class="section-sub">كل مرحلة ليها عدد أطفال مناسب، ونشاط مختلف، ومعلّمة متخصّصة.</p>
+      </header>
+
+      <div class="grid grid-3 class-grid">
+        <article class="class-card">
+          <span class="class-age">١ - ٢ سنة</span>
+          <h3>الحولي</h3>
+          <ul class="mini-list">
+            <li>ألعاب حسّية وتنشيط حركة</li>
+            <li>تدريب النونية بالتدريج</li>
+            <li>أغاني وقصص قصيرة</li>
+          </ul>
+        </article>
+        <article class="class-card">
+          <span class="class-age">٢ - ٣ سنوات</span>
+          <h3>التمهيدي</h3>
+          <ul class="mini-list">
+            <li>حروف وأرقام باللعب</li>
+            <li>رسم وتلوين ومعجون</li>
+            <li>اعتماد على النفس</li>
+          </ul>
+        </article>
+        <article class="class-card">
+          <span class="class-age">٣ - ٦ سنوات</span>
+          <h3>KG1 · KG2</h3>
+          <ul class="mini-list">
+            <li>قراءة وكتابة وحساب</li>
+            <li>إنجليزي وموسيقى</li>
+            <li>استعداد للمدرسة</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= DAILY ROUTINE ================= -->
+  <section class="section" id="routine" aria-labelledby="routine-title">
+    <div class="container container-narrow">
+      <header class="section-head">
+        <p class="kicker">اليوم الدراسي</p>
+        <h2 id="routine-title">يوم الطفل في مس مامي</h2>
+        <p class="section-sub">روتين ثابت بيدي الطفل أمان ويطمّنه — ويريّح الأهل كمان.</p>
+      </header>
+
+      <!-- ====== عدّل المواعيد بما يطابق يوم الحضانة ====== -->
+      <ol class="timeline">
+        <li class="tl-item"><span class="tl-time"><span> 7:00 - 7:30</span><h3>الاستقبال والفحص</h3><p>استلام الطفل، تحية الصباح</p></li>
+        <li class="tl-item"><span class="tl-time">9:00 - 9:30</span><h3>فطار وحلقة الصباح</h3><p>فطار جماعي، ثم نشيد ودعاء اليوم.</p></li>
+        <li class="tl-item"><span class="tl-time">9:30 - 11:00</span><h3>الأنشطة التعليمية</h3><p>حروف وأرقام وعلوم بسيطة وإنجليزي وموسيقى — باللعب مش بالتلقين.</p></li>
+        <li class="tl-item"><span class="tl-time">11:00 - 11:30</span><h3>الفناء والحركة</h3><p>ألعاب حركية ومرح مع الحفاظ علي السلامه.</p></li>
+        <li class="tl-item"><span class="tl-time">1:00 - 1:30</span><h3>نشاط اليوم</h3><p> تساعد علي جعل الطفل محب للتعليمانشطه ترفيهيه تعليميه .</p></li>
+        <li class="tl-item"><span class="tl-time">1:30 - 2:15</span><h3>الاستعداد للانصراف</h3><p>ترتيب الشنطة، ووجبة خفيفة، وتسجيل تقرير اليوم وإرساله للأهل.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ================= ACTIVITIES ================= -->
+  <section class="section section-alt" id="activities" aria-labelledby="act-title">
+    <div class="container">
+      <header class="section-head">
+        <p class="kicker">الأنشطة</p>
+        <h2 id="act-title">بيتعلّم وهو بيلعب</h2>
+        <p class="section-sub">كل نشاط بيبني مهارة: لغة، حركة، تركيز، أو تعاون.</p>
+      </header>
+
+      <div class="grid grid-3">
+        <article class="card"><span class="card-ico ico-blue" aria-hidden="true">🎨</span><h3>فنون وتلوين</h3><p>رسم ومعجون وألوان مائية بتنمّي عضلات اليد والخيال.</p></article>
+        <article class="card"><span class="card-ico ico-green" aria-hidden="true">📚</span><h3>قصة وحكي</h3><p>قصة كل يوم بأسئلة بسيطة بتفتح الخيال وتزوّد الحصيلة اللغوية.</p></article>
+        <article class="card"><span class="card-ico ico-amber" aria-hidden="true">🎵</span><h3>موسيقى وإيقاع</h3><p>أناشيد وآلات بسيطة بتعلّم الإيقاع والثقة أمام المجموعة.</p></article>
+        <article class="card"><span class="card-ico ico-rose" aria-hidden="true">🔬</span><h3>علوم صغيرة</h3><p>تجارب آمنة: النبتة بتنمو إزاي، والحاجة بتطفو ليه.</p></article>
+        <article class="card"><span class="card-ico ico-violet" aria-hidden="true">🗣️</span><h3>إنجليزي</h3><p>كلمات وأغاني وحروف باللعبة، من غير ضغط على الطفل.</p></article>
+        <article class="card"><span class="card-ico ico-blue" aria-hidden="true">🏃</span><h3>حركة وتوازن</h3><p>مسارات حركية وتمارين توازن في فناء مغطّى وآمن.</p></article>
+      </div>
+
+      <!-- ====== معرض الصور: حط صورك مكان المربعات الفاضية ====== -->
+      <div class="gallery">
+        <img src="./WhatsApp Image 2026-11-01 at 8.59.50 PM.jpeg" alt="">
+        <img src=".//WhatsApp Image 2026-11-01 at 8.59.49 PM.jpeg" alt="">
+      </div>
+      <p class="section-footnote">المربعات دي أماكن فاضية للصور — حط صورك في <code>assets/img/</code> واستبدل كل <code>&lt;figure class="ph"&gt;</code> بـ <code>&lt;img src="assets/img/name.jpg" alt="وصف الصورة"&gt;</code>.</p>
+    </div>
+  </section>
+
+  <!-- ================= FACILITIES ================= -->
+  <section class="section" id="facilities" aria-labelledby="fac-title">
+    <div class="container">
+      <header class="section-head">
+        <p class="kicker">المرافق</p>
+        <h2 id="fac-title">المكان اللي هتطمن عليه</h2>
+      </header>
+      <div class="grid grid-3 facility-grid">
+        <article class="facility"><h3>🩺 تمريض ومتابعة</h3><p>سجل تطعيمات لكل طفل، وتواصل مع طبيب وصيدلية قريبة.</p></article>
+        <article class="facility"><h3>🧼 تعقيم يومي</h3><p>ألعاب وأسِرّة ودورات مياه بتنظّف بمواد آمنة للأطفال.</p></article>
+        <article class="facility"><h3>🚌 خدمة الباص</h3><p>خطوط محددة بمشرف، وتنبيه أول ما الطفل يركب أو ينزل.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FEES ================= -->
+  <section class="section section-alt" id="fees" aria-labelledby="fees-title">
+    <div class="container">
+      <header class="section-head">
+        <p class="kicker">المصروفات</p>
+        <h2 id="fees-title">مصروفات واضحة من غير مفاجات</h2>
+        <p class="section-sub">الأرقام المعروضة أمثلة — بدّلها بأسعارك الحقيقية.</p>
+      </header>
+
+      <div class="grid grid-3 price-grid">
+        <article class="price-card">
+          <p class="tier-name">يومي</p>
+          <h3>لو مش منتظم</h3>
+          <p class="price"><span class="amount">٢٥٠</span><span class="cycle">ج.م / يوم</span></p>
+          <ul class="tick-list">
+            <li>حضور باليوم</li>
+            <li>وجبة خفيفة</li>
+            <li>تقرير يومي</li>
+          </ul>
+          <a class="btn btn-ghost btn-block" href="#visit">اسأل عن المواعيد</a>
+        </article>
+
+        <article class="price-card price-featured">
+          <span class="ribbon">الأكثر اختيارًا</span>
+          <p class="tier-name">شهري · ٥ أيام</p>
+          <h3>دوام كامل</h3>
+          <p class="price"><span class="amount">١٨٠٠</span><span class="cycle">ج.م / شهر</span></p>
+          <ul class="tick-list">
+            <li>كل الأقسام والأنشطة</li>
+            <li>فطار وغدا ووجبة خفيفة</li>
+            <li>متابعة يومية بالصور</li>
+            <li>تقرير شهري PDF</li>
+          </ul>
+          <a class="btn btn-primary btn-block" href="#visit">احجز زيارة</a>
+        </article>
+
+        <article class="price-card">
+          <p class="tier-name">شهري · ٣ أيام</p>
+          <h3>دوام جزئي</h3>
+          <p class="price"><span class="amount">١٣٠٠</span><span class="cycle">ج.م / شهر</span></p>
+          <ul class="tick-list">
+            <li>٣ أيام في الأسبوع</li>
+            <li>وجبتين في اليوم</li>
+            <li>نفس متابعة الأهل</li>
+          </ul>
+          <a class="btn btn-ghost btn-block" href="#visit">اعرف التفاصيل</a>
+        </article>
+      </div>
+
+      <ul class="fees-notes">
+        <li>خصم <b>١٠٪</b> للإخوة.</li>
+        <li>رسوم التسجيل بتتدفع مرة واحدة في السنة.</li>
+        <li>الباص بسعر منفصل حسب المنطقة.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="section" id="faq" aria-labelledby="faq-title">
+    <div class="container container-narrow">
+      <header class="section-head">
+        <p class="kicker">أسئلة</p>
+        <h2 id="faq-title">أسئلة بتسألها كل أم</h2>
+      </header>
+      <div class="faq-list">
+        <details class="faq" open>
+          <summary><h3>أقدر أزور قبل ما أسجّل؟</h3><span class="faq-mark" aria-hidden="true"></span></summary>
+          <p>طبعًا — احجزي زيارة في أي يوم عمل، وتشوفين القاعات والفناء والمطبخ، وتتكلمين مع المديرة والمعلّمات من غير أي التزام.</p>
+        </details>
+        <details class="faq">
+          <summary><h3>إيه المطلوب للتسجيل؟</h3><span class="faq-mark" aria-hidden="true"></span></summary>
+          <p>شهادة ميلاد كمبيوتر، صورة بطاقة الأب والأم، استمارة التطعيمات، وصور شخصية. التسجيل بيتم في مكتب الحضانة بعد الزيارة.</p>
+        </details>
+        <details class="faq">
+          <summary><h3>إزاي أتابع أولادي أثناء اليوم؟</h3><span class="faq-mark" aria-hidden="true"></span></summary>
+          <p>تقرير يومي بالأكل والنوم والأنشطة، صور بتترفع أول بأول، ومحادثة مباشرة مع المعلّمة لأي سؤال.</p>
+        </details>
+        <details class="faq">
+          <summary><h3>الطفل مش عايز يمشي مني!</h3><span class="faq-mark" aria-hidden="true"></span></summary>
+          <p>عندنا برنامج تكيّف على أسبوع: أول يوم معاكِ في الحضانة، وبعدين نص ساعة، وبنوصل لليوم كامل بالراحة — من غير دموع متواصلة.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= VISIT / CONTACT ================= -->
+  <section class="section section-cta" id="visit" aria-labelledby="visit-title">
+    <div class="container visit-inner">
+      <div class="visit-copy">
+        <h2 id="visit-title">تفضّلي زورينا… وشوفي بنفسك</h2>
+        <p>سيبي بياناتك وهنكلّمك نحدّد معاد الزيارة في نفس اليوم، أو كلّمينا على طول.</p>
+
+        <!-- ====== بيانات التواصل ====== -->
+        <ul class="contact-list">
+          <li><span aria-hidden="true">📞</span><a href="tel:+201288400560">٠١٢٨٨٤٠٠٥٦٠</a></li>
+          <!-- لو رقم الواتساب مختلف عن الموبايل، بدّلي الرقم في اللينك ده -->
+          <li><span aria-hidden="true"><i class="fa-brands fa-square-whatsapp" style="color:#25a85f"></i></span><a href="https://wa.me/201288400560" target="_blank" rel="noopener">واتساب الحضانة</a></li>
+          <li><span aria-hidden="true"><i class="fa-brands fa-facebook" style="color:#1a73e8"></i></span><a href="https://www.facebook.com/share/1BmLrGMuhT/" target="_blank" rel="noopener">صفحة الحضانة على فيسبوك</a></li>
+          <li><span aria-hidden="true">📍</span><span>الدقهلية — منية سمنود (مركز أجا) — بجوار مسجد أبو قرع</span></li>
+          <li><span aria-hidden="true">🕘</span><span>السبت - الخميس · ٧ ص - ٢ م</span><span class="chip" id="open-chip" hidden></span></li>
+        </ul>
+
+        <!-- ====== الخريطة: الدبوس محطوط على إحداثيات "مسجد أبو قرع — شارع الثورة — منية سمنود — مركز أجا — الدقهلية" (30.95798, 31.25462).
+             لو عايزة الدبوس على مبنى الحضانة نفسها: افتح اللينك ده وحرك الدبوس شوية → خليه على الباب → انسخ الـ src الجديد من "مشاركة ← إدراج خريطة":
+             https://maps.google.com/maps?q=30.95798,31.25462&z=18&output=embed ====== -->
+        <div class="map">
+          <iframe src="https://maps.google.com/maps?q=30.95798,31.25462&amp;z=17&amp;hl=ar&amp;output=embed"
+                  title="موقع الحضانة — بجوار مسجد أبو قرع، منية سمنود، مركز أجا، الدقهلية" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <!-- ====== عشان الفورم يوصلك على إيميل: سجّل في formspree.io وحط لينك الفورم بتاعك في الـ action ====== -->
+      <form class="visit-form" action="https://formspree.io/f/XXXXXXXX" method="POST">
+        <h3>احجزي زيارة أو اسألي عن الأماكن الفاضية</h3>
+
+        <div class="field">
+          <label for="f-name">اسم ولي الأمر <span class="req">*</span></label>
+          <input id="f-name" name="name" type="text" autocomplete="name" required placeholder="مثال: منى عبد الله">
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="f-phone">رقم الموبايل <span class="req">*</span></label>
+            <input id="f-phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" required
+                   pattern="01[0-9]{9}" title="اكتبي رقم موبايل ١١ رقم يبدأ بـ 01" placeholder="01xxxxxxxxx">
+          </div>
+          <div class="field">
+            <label for="f-age">سن الطفل</label>
+            <select id="f-age" name="child_age">
+              <option value="رضيع (أقل من سنة)">رضيع (أقل من سنة)</option>
+              <option value="حولي (١ - ٢ سنة)" selected>حولي (١ - ٢ سنة)</option>
+              <option value="تمهيدي (٢ - ٣ سنوات)">تمهيدي (٢ - ٣ سنوات)</option>
+              <option value="KG1 - KG2 (٣ - ٦ سنوات)">KG1 - KG2 (٣ - ٦ سنوات)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="f-day">اليوم المريح للزيارة</label>
+            <select id="f-day" name="visit_day">
+              <option value="السبت">السبت</option>
+              <option value="الأحد">الأحد</option>
+              <option value="الاثنين">الاثنين</option>
+              <option value="الثلاثاء">الثلاثاء</option>
+              <option value="الأربعاء">الأربعاء</option>
+              <option value="الخميس">الخميس</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-area">المنطقة</label>
+            <input id="f-area" name="area" type="text" placeholder="مثال: سيجر">
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="f-note">سؤال أو ملاحظة</label>
+          <textarea id="f-note" name="message" rows="3" placeholder="مثال: محتاجة باص لمنطقة سيجر، والمصروفات كام؟"></textarea>
+        </div>
+
+        <!-- بلوك خفي طارد السبام — ما يبانش للزائر -->
+        <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <button class="btn btn-primary btn-lg btn-block" type="submit">ابعت الطلب</button>
+        <p class="form-status" role="status" aria-live="polite" hidden></p>
+        <p class="form-hint">أو كلّمينا على واتساب مباشرة: <a href="https://wa.me/201288400560" target="_blank" rel="noopener">٠١٢٨٨ ٤٠ ٠٥٦٠</a> — الرد خلال مواعيد العمل.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-top">
+    <div class="footer-brand">
+      <img class="brand-logo" src="assets/logo.png" alt="حضانة مس مامي" width="135" height="97">
+      <p>حضانة وروضة أطفال بتعلّم باللعب في بيئة آمنة ونظيفة، مع متابعة يومية لكل أم وأب.</p>
+      <div class="socials">
+        <a href="https://www.facebook.com/share/1BmLrGMuhT/" target="_blank" rel="noopener" aria-label="فيسبوك"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M13.5 21v-7.4h2.5l.4-2.9h-2.9V9c0-.8.2-1.4 1.4-1.4h1.6V5c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1v2.3H8v2.9h2.6V21h2.9Z"/></svg></a>
+        <a href="https://wa.me/201288400560" target="_blank" rel="noopener" aria-label="واتساب"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l4.9-1.3A10 10 0 1 0 12 2Zm0 2a8 8 0 1 1 0 16 8 8 0 0 1-4.1-1.1l-.4-.2-2.5.7.7-2.4-.2-.4A8 8 0 0 1 12 4Zm-2.2 3.9c.2-.3.5-.4.7-.1l.9 1.5c.1.3 0 .5-.2.7l-.4.5c-.1.2-.1.4 0 .6l1 1.7c.2.2.4.2.6.1l.5-.5c.2-.2.4-.2.6-.1l1.5.9c.2.2.2.4 0 .7-1 1.2-2.6 1.2-3.9.4-1.3-.9-3-2.9-3-4.5 0-.9.3-1.7 1-2.2Z"/></svg></a>
+        <!-- لو عندك انستجرام، حطي زرار ليه — الكود الجاهز في README -->
+      </div>
+    </div>
+
+    <nav class="footer-col" aria-label="الحضانة">
+      <h3>الحضانة</h3>
+      <a href="#about">ليه مس مامي</a>
+      <a href="#classes">الأقسام</a>
+      <a href="#routine">اليوم الدراسي</a>
+      <a href="#activities">الأنشطة</a>
+    </nav>
+
+    <nav class="footer-col" aria-label="معلومات">
+      <h3>معلومات</h3>
+      <a href="#fees">المصروفات</a>
+      <a href="#facilities">المرافق</a>
+      <a href="#faq">الأسئلة الشائعة</a>
+      <a href="#visit">احجز زيارة</a>
+    </nav>
+
+    <div class="footer-col footer-contact">
+      <h3>تواصل</h3>
+      <a href="tel:+201288400560">٠١٢٨٨ ٤٠ ٠٥٦٠</a>
+      <a href="https://wa.me/201288400560" target="_blank" rel="noopener">واتساب الحضانة</a>
+      <!-- لو عندك إيميل رسمي حطي السطر ده: <a href="mailto:الإيميل">الإيميل</a> -->
+      <p>الدقهلية — منية سمنود (مركز أجا) — بجوار مسجد أبو قرع</p>
+      <p class="hours">السبت - الخميس · ٧ ص - ٢ م</p>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <!-- السنة بتتحدّث لوحدها بالـ JS — ولو مقفول، الرقم المكتوب هنا هو اللي هيبان -->
+    <p>© <span id="year">٢٠٢٦</span> حضانة مس مامي · كل الحقوق محفوظة</p>
+    <p class="made">Kindergarten to teach children 🍎</p>
+  </div>
+</footer>
+
+<a class="to-top" href="#top" id="to-top" hidden>
+  <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 5l7 7-1.4 1.4L13 8.8V19h-2V8.8L6.4 13.4 5 12l7-7Z"/></svg>
+  <span class="visually-hidden">رجوع لأعلى الصفحة</span>
+</a>
+
+</body>
+</html>
